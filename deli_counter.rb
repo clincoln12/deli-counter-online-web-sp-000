@@ -6,6 +6,6 @@ def line(katz_deli)
   else
     arr = []
     katz_deli.each_with_index { |x, i| arr << "The line is currently: #{i + 1}. #{x}" }
-    arr
+    puts arr
   end
 end
