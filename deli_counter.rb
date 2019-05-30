@@ -12,9 +12,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  arr = []
-  katz_deli.each_with_index do |value, index|
-  arr << "Welcome, #{value}. You are number #{index + 1} in line."
-  puts arr.join
-  end
+  if katz_deli == []
+    puts name
 end
