@@ -13,7 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
   arr = []
-  take_a_number.each_with_index do |x, i|
+  katz_deli.each_with_index do |x, i|
     arr << "Welcome, #{x}. You are number #{i + 1} in line."
   end
 end
