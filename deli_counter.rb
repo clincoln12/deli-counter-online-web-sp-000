@@ -5,7 +5,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     arr = []
-    katz_deli.each_with_index { |x, i| arr << "The line is currently: #{i + 1}. #{x}" }
+    arr << "The line is currently: "
+    katz_deli.each_with_index { |x, i| arr << "#{i + 1}. #{x}" }
     puts arr.join(" ")
   end
 end
