@@ -14,7 +14,7 @@ end
 def take_a_number(katz_deli, name)
   arr = []
   katz_deli.each_with_index do |value, index|
-    arr << "Welcome, #{value}. You are number #{index + 1} in line."
-    puts arr
+  arr << "Welcome, #{value}. You are number #{index + 1} in line."
+  puts arr
   end
 end
