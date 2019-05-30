@@ -12,8 +12,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli == []
+  if katz_deli.empty?
     katz_deli << name
     puts "Welcome, #{name}. You are number 1 in line."
+  else
+    
   end
 end
