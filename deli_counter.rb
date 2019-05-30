@@ -13,6 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli == []
+    katz_deli << name
     return "Welcome, #{name}. You are number 1 in line."
   end
 end
